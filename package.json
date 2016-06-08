@@ -1,0 +1,28 @@
+{
+  "name": "quintype-js",
+  "version": "0.1.0",
+  "description": "Libraries for the Quintype JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/quintype/quintype-js.git"
+  },
+  "keywords": [
+    "quintype"
+  ],
+  "author": "Quintype Developers <dev-core@quintype.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quintype/quintype-js/issues"
+  },
+  "homepage": "https://github.com/quintype/quintype-js#readme",
+  "dependencies": {
+    "lodash": "^4.13.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3"
+  }
+}

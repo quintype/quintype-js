@@ -8,7 +8,7 @@ describe('FocussedImage', function(){
   describe('of a perfectly sized image', function(){
     it('is the same as the image', function(){
       var image = new FocussedImage("foobar", {width: 1600, height: 900, "focus-point": [800, 450]});
-      assert.equal("?rect=0,0,1600,900&w=400", image.path([16,9], {w: 400}));
+      assert.equal("foobar?rect=0,0,1600,900&w=400", image.path([16,9], {w: 400}));
     });
   });
 });

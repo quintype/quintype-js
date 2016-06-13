@@ -1,3 +1,3 @@
 module.exports = {
-  FocussedImage: require("./lib/focussed_image")
+  FocusedImage: require("./lib/focused_image")
 };

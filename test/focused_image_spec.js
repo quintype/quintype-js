@@ -1,13 +1,13 @@
 var assert = require("assert");
 var _ = require("lodash");
 
-var FocussedImage = require("../index").FocussedImage;
-var imageBounds = FocussedImage.imageBounds;
+var FocusedImage = require("../index").FocusedImage;
+var imageBounds = FocusedImage.imageBounds;
 
-describe('FocussedImage', function(){
+describe('FocusedImage', function(){
   describe('of a perfectly sized image', function(){
     it('is the same as the image', function(){
-      var image = new FocussedImage("foobar", {width: 1600, height: 900, "focus-point": [800, 450]});
+      var image = new FocusedImage("foobar", {width: 1600, height: 900, "focus-point": [800, 450]});
       assert.equal("foobar?rect=0,0,1600,900&w=400", image.path([16,9], {w: 400}));
     });
   });

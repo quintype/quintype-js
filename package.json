@@ -19,10 +19,11 @@
     "url": "https://github.com/quintype/quintype-js/issues"
   },
   "homepage": "https://github.com/quintype/quintype-js#readme",
-  "dependencies": {
+  "peerDependencies": {
     "lodash": "^4.13.1"
   },
   "devDependencies": {
-    "mocha": "^2.5.3"
+    "mocha": "^2.5.3",
+    "lodash": "^4.13.1"
   }
 }

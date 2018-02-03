@@ -1,6 +1,6 @@
 {
   "name": "quintype-js",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "description": "Libraries for the Quintype JS",
   "main": "index.js",
   "scripts": {
@@ -20,8 +20,8 @@
     "url": "https://github.com/quintype/quintype-js/issues"
   },
   "homepage": "https://github.com/quintype/quintype-js#readme",
-  "dependencies": {
-    "lodash.round": "^4.0.4"
+  "peerDependencies": {
+    "lodash": "^4.13.1"
   },
   "devDependencies": {
     "lodash": "^4.13.1",

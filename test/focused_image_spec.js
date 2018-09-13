@@ -1,5 +1,4 @@
 var assert = require("assert");
-var _ = require("lodash");
 
 var FocusedImage = require("../index").FocusedImage;
 var imageBounds = FocusedImage.imageBounds;

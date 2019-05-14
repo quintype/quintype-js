@@ -10,6 +10,12 @@ describe('FocusedImage', function(){
       assert.equal("foobar?rect=0%2C0%2C1600%2C900&w=400", image.path([16,9], {w: 400}));
     });
   });
+  describe('when aspect ratio is not provided', function() {
+    it('is the full image without the focus point set', function() {
+      var image = new FocusedImage("foobar", {width: 1600, height: 900, "focus-point": [800, 450]});
+      assert.equal("foobar?w=400", image.path(null, {w: 400}));
+    });
+  });
 });
 
 describe('ImageBounds', function(){
@@ -59,5 +65,3 @@ describe('ImageBounds', function(){
     });
   });
 });
-
-

@@ -64,12 +64,4 @@ describe('ImageBounds', function(){
       assert.deepEqual([0, 900, 1600, 900], imageBounds(image_dimentions, aspect_ratio, [1600, 1800]));
     });
   });
-
-  describe("when aspect Ratio is not provided", function() {
-    var image_dimentions = [1600, 1800];
-    var aspect_ratio = null;
-    it('image bounds will be null', function() {
-      assert.deepEqual(null, imageBounds(image_dimentions, aspect_ratio, [1600, 1800]));
-    });
-  });
 });

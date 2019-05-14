@@ -1,6 +1,6 @@
 {
   "name": "quintype-js",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Libraries for the Quintype JS",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/quintype/quintype-js#readme",
   "devDependencies": {
-    "mocha": "^2.5.3"
+    "mocha": "^6.1.4"
   }
 }

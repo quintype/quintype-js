@@ -1,6 +1,6 @@
 {
   "name": "quintype-js",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Libraries for the Quintype JS",
   "main": "index.js",
   "scripts": {
